@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+.col-1  {
+width:100%
+}
+.col-2  {
+  width:50%
+  }
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+
+
+.btn {
+ height:200px;
+
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 30%;
+
+  ;
+}
+
+.green {
+  background-color: green;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 30%;
+
+}
+
+.blue {
+  background-color: blue;
+border-bottom-left-radius: 100%;
+  border-top-right-radius: 30%; 
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 30%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
